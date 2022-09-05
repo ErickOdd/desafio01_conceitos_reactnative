@@ -14,8 +14,6 @@ export function Header({ tasksCounter }: HeaderProps) {
   tasksCounter === 1 ? tasksCounterText = 'tarefa' : tasksCounterText = 'tarefas';
   
   
-  //TODO render 'tarefa' if tasksCounter equals 1, otherwise render 'tarefas'
-  
   return (
     <View style={styles.container}>
       <Image source={logoImg} />
